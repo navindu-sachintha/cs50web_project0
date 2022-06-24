@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
