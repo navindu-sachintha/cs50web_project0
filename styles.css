@@ -12,7 +12,7 @@ body {
     float: right;
 }
 
-a {
+.header a {
     text-decoration: none;
     color: #000000;
     padding: 10px;
@@ -21,3 +21,26 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+.search-container .search-field {
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    border: 1px solid #afafaf;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.search-container .search-field input {
+    border: none;
+    border-radius: 25px;
+  }
