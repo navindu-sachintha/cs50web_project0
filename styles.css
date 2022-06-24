@@ -10,6 +10,7 @@ body {
 
 .header {
     float: right;
+    margin-top: 10px;
 }
 
 .header a {
@@ -70,4 +71,11 @@ input[type=submit]:hover {
 .search-container .search-field input {
     border: none;
     border-radius: 25px;
-  }
+}
+
+.search-container .logo-subtext {
+    color: #4285f4;
+    position: relative;
+    left: 110px;
+    top: -18px;
+}
