@@ -39,7 +39,7 @@ input[type=text] {
     margin: 0 0 0 5px;
 }
 
-input[type=submit] {
+.search-container input[type=submit] {
     font-size: 14px;
     width: 185px;
     border-width: 0px;
@@ -98,4 +98,58 @@ input[type=submit]:hover {
 
 .header-seperator {
     border-bottom: solid 1px #d6d6d6;
+}
+
+.ad-search-container {
+    margin: 50px 40px;
+}
+
+.ad-search-container label {
+    display: inline-block;
+    width: 16%;
+    font-size: 16px;
+}
+
+.ad-search-container .space {
+    display: inline-block;
+    width: 50%;
+}
+
+.ad-search-container .f-group {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+
+.ad-search-container .f-group label {
+    font-size: 13px;
+    width: 16%;
+}
+
+.f-group input[type=text] {
+    width: 49%;
+    padding: 2px 0;
+}
+
+.guide {
+    font-size: 11px;
+    width: 30%;
+    margin-left: 1%;
+    color: #949494;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.ad-button {
+    background-color: dodgerblue;
+    color: white;
+    font-size: smaller;
+    max-width: 200px;
+    border-radius: 3px;
+    border: 1px solid #156bbd;
+    padding: 10px 2px;
+    margin-left: 650px;
 }
