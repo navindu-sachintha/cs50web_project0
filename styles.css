@@ -85,3 +85,17 @@ input[type=submit]:hover {
     display: flex;
     justify-content: space-between;
 }
+
+.ad-header-title {
+    margin: 30px 10px;
+}
+
+.ad-header-title label {
+    color: #d93025;
+    font-size: 20px;
+    margin: 50px 20px;
+}
+
+.header-seperator {
+    border-bottom: solid 1px #d6d6d6;
+}
